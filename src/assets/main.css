@@ -1,10 +1,14 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
+  width: 50%;
+  height: 650px;
   margin: 0 auto;
-  padding: 2rem;
+  padding-top: 1rem;
   font-weight: normal;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  text-align: center;
 }
 
 a,
@@ -13,6 +17,12 @@ a,
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
   padding: 3px;
+}
+
+#dropdown-phone {
+  position: absolute;
+  margin: 0px;
+  transform: translate3d(-40px, 103px, 0px);
 }
 
 @media (hover: hover) {
@@ -27,9 +37,9 @@ a,
     place-items: center;
   }
 
-  #app {
+  /* #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
+  } */
 }
